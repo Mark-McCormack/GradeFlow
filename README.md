@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# GradeFlow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+GradeFlow is a simple React web app for calculating and visualising student grades across multiple academic years. It is designed to help students quickly see how individual module results and year weightings affect their overall performance.
+
+<div align="center">
+  <img alt="Aceso health dashboard preview" src="./README Image.png" />
+  <p><em>GradeFlow allows for Maynooth University students to track their progress!</em></p>
+</div>
+
+## Purpose
+
+The purpose of GradeFlow is to make grade tracking easier and more intuitive. Instead of manually calculating weighted averages, users can enter module names and grades, adjust the importance of each year, and instantly view both yearly and final results.
+
+## Features
+
+- Add or remove modules within each academic year
+- Edit module names and grades directly in the interface
+- Set custom weightings for each year
+- View calculated yearly averages and a final weighted overall grade
+- Load sample data to explore the calculator quickly
+
+## Tech Stack
+
+- React
+- React Bootstrap
+- Create React App
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mark-McCormack/student-grade-calculator.git
+   ```
+2. Navigate into the project folder:
+   ```bash
+   cd student-grade-calculator
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Run the app locally
+
+Start the development server:
+
+```bash
+npm start
+```
+
+Then open http://localhost:3000 in your browser.
 
 ## Available Scripts
 
-In the project directory, you can run:
+- `npm start` - runs the app in development mode
+- `npm test` - launches the test runner
+- `npm run build` - creates a production build
+- `npm run deploy` - deploys the build to GitHub Pages
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- `src/components/Calculator.js` - main grade calculator UI and logic
+- `src/App.js` - app entry point
+- `public/` - static assets and HTML shell
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## License
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is available for educational and personal use.
